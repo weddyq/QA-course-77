@@ -1,0 +1,142 @@
+
+
+1)Description: utilizatorul se poate Loga
+
+  Priority: high
+
+  Tipul Test Case: UI, Usability, Compatibility.
+
+Satut de automatizare: No
+
+Mediu de testare: www.utest.com, setat în limba engleză  
+
+  Preconditii:
+
+ •Dispozitiv PC 
+
+ •Conected on Internet
+
+ •Browser 
+
+ •Sistem de operare
+
+ •Cont existent
+
+Test steps:
+
+  1.Turn on PC, conectat la rețeaua de alimentare
+
+  2.Open  browser
+
+  3.Type text “www.utest.com” în bara de cautare
+ 
+  4.Click “enter”
+
+  5.Locate “Log In”
+
+  6.Click on “Log In”
+
+  7.Type email "ciprianjelamschi6@gmail.com"
+
+  8.Click on “Continue”
+
+  9.Type Password "ciprian123"
+
+  10.Type on  “Sign In”
+
+
+Test data:
+
+ • www.utest.com
+
+ • “ciprianjelamschi6@gmail.com" în calitate de login
+
+ • “123@pntret” în calitate de parola 
+
+ 
+
+Atașament: Captură de ecran din 2026-02-20 la 20.23.51.png
+
+Rezultatul așteptat: utilizatorul se poate Loga
+
+Rezultatul actual: utilizatorul se poate Loga
+
+21.02.26/23:14
+
+QA: Cipria Jelamschi
+
+Statut de executare: pased
+
+
+
+
+2)Description: user can setup PayPal payment method 
+
+  Priority: high
+
+  Tipul Test Case: UI, Usability, Compatibility.
+
+Satut de automatizare: No
+
+Mediu de testare: www.utest.com, setat în limba engleză  
+
+Preconditii:
+
+ •Dispozitiv PC 
+
+ •Conected on Internet
+
+ •Browser 
+
+ •Sistem de operare
+
+ •utest.com account and logged in
+
+ •PayPal account 
+
+Test steps:
+
+  1.Turn on PC, conectat la rețeaua de alimentare
+
+  2.Open  browser
+
+  3.Type text “www.utest.com” în bara de cautare
+ 
+  4.Click “enter”
+
+  5.On main page locate "Setup your Payments Method" 
+
+  6.Click on "Setup your Payments Method"
+
+  7.Locate "Payment Method: None"
+
+  8.Click on “Set Up”
+
+  9.Click on "PayPal"
+
+  10.Click "Yes"
+
+  11.Type PayPal account "ciprianjelamschi6.jpg"
+  
+  12.Click "Save" 
+
+Test data:
+
+ • www.utest.com
+
+ • 'ciprianjelamschi6@gmail.com" PayPal account  
+
+
+ 
+
+Atașament: Captură de ecran din 2026-02-20 la 20.23.51.png
+
+Rezultatul așteptat: user can setup PayPal payment method 
+
+Rezultatul actual: user can setup PayPal payment method 
+
+21.02.26/23:14
+
+QA: Ciprian Jelamschi
+
+Statut de executare: pased
