@@ -1,0 +1,99 @@
+Descriere: Utilizatorul se poate loga setat in limba engleza
+
+Prioritate: Inalta
+
+Tipul de testare: UI,security
+
+Statut de automatizare: N/A
+
+Mediu de testare: https://www.utest.com/
+
+Pre-conditii:
+
+-Device conectat la reteaua de alimentare sau baterie
+-Internet access
+- Browser (firefox)
+-Sistem de operare
+
+Pasi de testare:
+
+-Porneste Device-ul
+
+-Conecteaza-te la reteaua de internet
+
+-Deschide browserul (firefox)
+
+-Localizaeaza bara de cautare in browser
+-Tapeaza in bara de cautare www.uTest.com
+-Localizeaza butonul Log in
+-Click pe butonul Log-in
+-Introduce email in bara de "Email Address"
+- Click
+- Introduce parola in bara de "Password"
+- Click
+
+Mediu:Utilizatorul se poate loga wwww.uTest.com
+
+Atasament:
+
+123jpg.md
+
+Rezultatul asteptat: Utilizatorul se poate loga
+Rezultatul actual: Utilizatorul ii pasibil pentru logare
+
+Statut de executare: Passed
+
+QA- Evgheni Danu
+Data:21.02.2026
+ora: 19.00
+
+
+
+
+
+
+
+Descriere: Verificarea fucntionalitatii barei de cautare, setata in limba engleza
+
+Prioritate: Inalta
+
+Tipul de testare: UI,Compatibility,Usability
+
+Mediu de testare: https://www.utest.com/
+
+Pre-conditii:
+ 
+-Device conectat la reteaua de alimentare sau baterie
+-Internet access
+-Browser (firefox)
+-Sistem de operare
+-Cont deja logat
+
+Pasi de testare:
+
+-Porneste Device-ul
+
+-Conecteaza-te la reteaua de internet
+
+-Deschide browserul (firefox)
+
+- Localizeaza bara de cautare "Search"
+- Tapeaza "UI testing"
+- Click "Enter" 
+
+Mediu:Verificarea fucntionalitatii barei de cautare www.uTest.com
+
+atasament:
+
+123jpg.md
+
+
+Rezultatul asteptat: Utilizatorului i se afiseaza rezultatul introdus 
+Rezultatul actual:  Utilizatorului i se afiseaza informatia cautata
+
+Statut de executare: Passed
+
+QA- Evgheni Danu
+Data:21.02.2026
+ora: 19.00
+
