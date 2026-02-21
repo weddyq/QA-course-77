@@ -1,0 +1,79 @@
+﻿Descriere: Inregistrarea unui cont nou
+
+Preconditii:
+
+Device, pe baterie sau conectat la reteaua de alimentare
+
+Browser
+
+Acces la Internet
+
+Pasi de testare:
+
+1. Pornim device-ul
+2. Ne conectam la internet
+3. Deschidem browserul
+4. Tapam in search bar "https://utest.com/"
+5. Click pe butonul "Join Now" aflat in partea stanga de sus
+6. Aplicam datele care sunt cerute
+7. Click pe "Create Account"
+8. Confirmam contul
+
+
+Rezultatul asteptat: Inregistrarea unui cont nou
+Rezultatul actual: Inregistrarea unui cont nou
+
+Atasament: 123.jpg
+
+Status: Passed
+
+QA: Tanasiev Artur
+19:45
+21.02.2026
+
+
+
+
+
+Descriere: Logare in cont existent
+
+Preconditii:
+
+-Device, pe baterie sau conectat la reteaua de alimentare
+-Acces la internet
+-Browser
+-Cont deja creat
+
+
+Pasi de testare:
+
+1. Pornim device-ul
+
+2. Ne conectam la internet
+
+3. Deschidem browserul
+
+4. Tapam in search bar "https://utest.com/"
+
+5. Click pe butonul "Log In" aflat in partea dreapta de sus
+
+6. Click pe spatial "jsmith@example.com"
+
+7. Tapam emailul propriu
+
+8. Click pe "Continue"
+
+9. Click pe spatiul liber de sub "Password"
+
+10. Tapam parola de la cont
+
+Rezultatul asteptat: Logare in cont existent
+Rezultatul actual: Logare in cont existent
+
+Atasament: login.jpg
+
+Status: Passed
+
+QA: Tanasiev Artur
+19:58
+21.02.2026
