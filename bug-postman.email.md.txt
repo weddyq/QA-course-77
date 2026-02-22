@@ -1,0 +1,54 @@
+Descriere: utilizatorul nu poate actualiza adresa de email
+
+Descriere: utilizatorul nu poate actualiza adresa de email în aplicația Postman
+
+Preconditii
+
+ 1. Dispozitiv PC, conectat la sursa de alimentare sau baterie
+ 
+ 2.Conected on internet
+
+ 3.Postman app
+ 
+ 4.utilizator creat după următorii parametri:
+{
+  "firstName": "Vlad",
+  "lastName": "Kitler",
+  "picture": "https://randomuser.me/api/portraits/med/men/32.jpg",
+  "gender": "male",
+  "email": "vlad.kitlesfgdfrkd@gmail.com"
+}
+
+ 5.key:app-id  value:62dac3815b42217c2816e6fa
+
+Pași de reproducere:
+ 
+ •Turn on your PC
+ •open Postman App
+ •click on "Connected without an account"
+ •Set method "PUT"
+ •Introdu în headers valoarea din precondiții
+ •Modifica adresa de email în "body"
+ •Introdu următoarea adresa API  "https://dummyapi.io/data/v1/user/699ac01300e9843e4e6613b0"
+ •Click "Send"
+
+Test data:
+ •utilizator creat după următorii parametri:
+{
+  "firstName": "Vlad",
+  "lastName": "Kitler",
+  "picture": "https://randomuser.me/api/portraits/med/men/32.jpg",
+  "gender": "male",
+  "email": "vlad.kitlesfgdfrkd@gmail.com"
+}
+ •key:app-id  value:62dac3815b42217c2816e6fa
+ •https://dummyapi.io/data/v1/user/699ac01300e9843e4e6613b0
+
+Rezultatul așteptat: utilizatorul poate actualiza adresa de email
+Rezultatul actual: utilizatorul nu poate actualiza adresa de email
+
+22.02.26/11:19
+
+Priority:high
+QA: Andrei Birca
+Statut de executare:failed
