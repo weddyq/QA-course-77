@@ -1,0 +1,47 @@
+Titlu 
+Utilizatorul nu poate actualiza adresa de email
+
+Descriere:
+Utilizatorul nu poate actualiza adresa de email utilizind aplicatia Postman
+
+Preconditiile:
+
+1. Calculator conectat la sursa de alimentare sau baterie
+2. Conectare la internet
+3. Aplicatia Postman instalata
+4. Utilizator creat dupa urmatorii parametri:
+{
+"firstName": "Vladimir",
+"lastName": "Musteata",
+"picture": "https://randomuser,me/api/portraits/med/men/32.jpg",
+"gender": "male",
+"email": "VlMD@gmail.com"
+}
+
+5. Headers: app-id 62dac3815b42217c2816e6fa
+
+Pasii de reproducere:
+
+Porneste calculator-ul
+Conecteazate la internet
+Porneste aplicatia Postman
+Selecteaza "Put" in calitate de metoda
+Introdu in headers valoarea din preconditii
+Modifica adresa de Email in "Body"
+Introdu urmatoarea adresa API: https://dummyapi.io/data/v1/user/699ac594c0276b6adbbf3f2e
+
+Rezultatul asteptat: Utilizatorul actual poate actualiza adresa de Emaill in body
+Rezultatul actual: Utilizatorul actual nu poate actualiza adresa de Emaill in body
+
+Atasament: Email body.jpg
+
+Incercari: 0
+
+Nume QA: Vladimir M
+Nume programator: Dumitru
+Data> 22.02.2026
+Timpul: 11:20
+Severitate: High
+Prioritate: High
+
+
