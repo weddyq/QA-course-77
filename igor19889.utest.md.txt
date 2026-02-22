@@ -1,0 +1,70 @@
+Description: TEST - If the user can log in on uTest using PC/Laptop
+
+
+Priority: Highest
+
+
+Type of Test Case: Ui, Usability, Compatibility
+
+
+Testing Environment:  “ www.utest.com “ , Set in Engleza
+
+Prerequisites:
+
+Computer Device
+
+Internet access
+
+Browser
+
+Existing user account
+
+Testing Steps:
+
+User Turn on PC/Laptop
+
+Connect to the internet
+
+Open the Browser
+
+Type the text "www.utest.com" in the search bar
+
+Press the "Enter" key
+
+Locate the login section “ Adresa de e-mail sau numar de telefon “
+
+
+
+click on “ Adresa de e-mail sau numar de telefon “
+
+enter your log in
+
+
+
+click on “ Parola “
+
+enter your password
+
+
+
+click button “ Intrare “
+
+logged into your Facebook account
+
+
+
+Test Data:
+
+“ www.facebook.com “ As a Production Environment
+
+“ igorbalinschi8@gmail.com “ Log in
+
+“ ********** “ Password
+
+Expected result: The user can log in to Facebook, using the correct login and password
+
+QA: Igor Balinschii
+
+Execution Status: Passed
+
+Date and time: 22.02.2026 / At 09:25 PM
