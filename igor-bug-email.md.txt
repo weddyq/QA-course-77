@@ -1,0 +1,36 @@
+Descriere: Bug, utilizatorul nu poate accesa adresa de email
+Mediu: www.postman.com
+
+Preconditii:
+1. PC / Laptop
+2. Acces la internet
+3. Aplicatia Postman
+4. Fara cont de Postman
+5. Utilizator creat dupa urmatorii parametri:
+{
+"firstName": "Djon",
+"lastName": "Doe",
+"picture": "https://randomuser,me/api/portraits/med/men/32.jpg",
+"gender": "female",
+"email": "djon.doe@gmail.com"
+}
+
+6. Headers: app-id, 62dac3815b42217c2816e6fa
+
+Pasii de Reproducere:
+1. Pornim Calculatorul
+2. Conecteaza-te la retea de internet
+3. Porneste Aplicatia Postman
+4. Selecteaza " Put " in calitate de metoda
+5. Introdu in Header valoarea din conditii
+6. Modifica adreasa de "Email" in Body
+7. Introdu urmatoarea adresa API: https://dummyapi.io/data/v1/user/699ac58c4db7678fe03420a8
+
+"www.postman"“ in calitate de productie environment
+Rezultatul actual: Bug, utilizatorul nu poate accesa adresa de email
+rezultatul asteptat: Bug, utilizatorul poate accesa adresa de email
+Atasament: iamge.png
+Incercar: 0
+Statut de executare: Fail
+Realizat de QA: Igor Balinschii
+Data so Ora: 22.02.2026 / 11:20
