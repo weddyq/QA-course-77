@@ -1,1 +1,36 @@
-Project
+Titlu: Userul nu poate actualiza adresa de e-mail
+Descriere: Userul nu poate actualiza adresa de e-mail prin PostMan
+Preconditii:
+1. PC/Laptop
+2.Sistem de operare
+3.Conectat la Electricitate
+4.Acces la Internet
+5.Aplicatia PostMan preinstalata
+6.Utilizatorul existent are urmatorii parametri:
+{
+"firstName": "Mihaela",
+"lastName": "Sercrieru",
+"picture": "https://randomuser,me/api/portraits/med/men/33.jpg",
+"gender": "male",
+"email": "mihai.secriieru@gmail.com"
+}
+7.Urmatorul header: 
+app-id 62dac3815b42217c2816e6fa
+Mediu de testare: https://dummyapi.io/data/v1/user/69a34565db32f7496536693c
+
+Pasii de reproducere:
+1. Porneste calculatorul
+2. Conecteazate la reteaua de internet
+3. Deschide aplicatia 
+4. selecteaza metoda "Put"
+5. Insereaza adresa API catre utilizator
+6. In sectiunea "Body:modifica adresa de email
+7. Da clic pe butonul "Send"
+
+Rezultatul asteptat:Utilizatorul isi poate actualiza adresa de email
+Rezultatul actual:Utilizatorul nu isi poate actualiza adresa de email
+
+Incercari de a repeta:0
+QA Victor Zaharcu
+Severitate:High
+Prioritate:High
